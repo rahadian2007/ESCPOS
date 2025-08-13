@@ -1,16 +1,14 @@
 {
-  "name": "@zarulrahim/react-native-esc-pos",
-  "description": "A React Native ESC/POS module to help you connect to your ESC/POS printer easily.",
+  "name": "react-native-esc-pos-custom",
   "version": "0.9.0",
+  "description": "A React Native ESC/POS module to help you connect to your ESC/POS printer easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zarulrahim/react-native-escpos.git",
-    "baseUrl": "https://github.com/zarulrahim/react-native-escpos"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Zarul Rahim",
-    "email": "zarulizham97@gmail.com"
+    "url": "https://github.com/yourusername/react-native-esc-pos-custom.git"
   },
   "keywords": [
     "bluetooth",
@@ -20,10 +18,11 @@
     "react-native",
     "thermal printer"
   ],
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Zarul Rahim",
+    "email": "zarulizham97@gmail.com"
   },
+  "license": "MIT",
   "devDependencies": {
     "react": "*",
     "react-native": "*"
